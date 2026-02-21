@@ -1,17 +1,4 @@
-const student = {
-     fullName :"gagan",
-     age : 12,
-     stream :"bca",
-    ispass : true,
+let a = 10;
+let b = 20;
 
-}
-
-student["age"]= student["age"] + 2 ;
-student["fullName"] = "arman";
-student["stream"]= "btech";
-student["ispass"]= false;
-
-console.log(student["age"]);
-console.log(student["fullName"]);
-console.log(student["stream"]);
-console.log(student["ispass"]);
+console.log(`Sum is ${a + b}`);
